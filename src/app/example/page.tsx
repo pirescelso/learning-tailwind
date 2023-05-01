@@ -3,7 +3,7 @@
 export default function Example() {
   return (
     <div className="max-3 h-screen flex flex-col sm:flex-row items-center justify-center">
-<button type="button" className="
+      <button type="button" className="
   text-white
   bg-blue-500
   hover:bg-blue-700
@@ -14,7 +14,7 @@ export default function Example() {
   rounded-md
 ">More Info</button>
 
-<button type="button" className="
+      <button type="button" className="
   text-white
   bg-red-500
   hover:bg-red-700
@@ -25,10 +25,10 @@ export default function Example() {
   rounded-md
 ">Docs</button>
 
-<button className="btn">other</button>
+      <button className="btn">other</button>
 
-<button className="btn">other1</button>
-
-</div>
+      <button className="btn">other1</button>
+      
+    </div>
   )
 }
